@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta http-equiv="content-type" content="text/html; charset=UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0">
+  <title>Highmaps Demo using directive</title>
+  
+  <link rel="stylesheet" type="text/css" href="https://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css">
+  
+  <style type="text/css">
+  .chart {
+    height: 400px;
+    min-width: 310px;
+    max-width: 800px;
+    margin: 0 auto;
+    border: 1px solid silver;
+  }
+  </style>
+
+</head>
+
+<body ng-app="app">
+  <div ng-controller="mainCtrl">
+  <my-map mydata="mydata" title="'Highmap Demo'"></my-map>
+</div>
+
+  <script type="text/javascript" src="//code.jquery.com/jquery-2.2.3.js"></script>
+  <script type="text/javascript" src="https://code.highcharts.com/maps/highmaps.js"></script>
+  <script type="text/javascript" src="https://code.highcharts.com/maps/modules/data.js"></script>
+  <script type="text/javascript" src="https://code.highcharts.com/maps/modules/drilldown.js"></script>
+  <script type="text/javascript" src="https://code.highcharts.com/mapdata/countries/us/us-all.js"></script>
+  <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/angularjs/1.5.3/angular.min.js"></script>
+  <script type="text/javascript" src="app.js"></script>
+</body>
+
+</html>
