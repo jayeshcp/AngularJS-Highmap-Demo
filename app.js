@@ -96,7 +96,7 @@
           title: {
             text: scope.title,
             style: {
-            	color: '#bf360c'
+                color: '#bf360c'
             }
           },
 
@@ -153,7 +153,7 @@
           }],
           
           tooltip: {
-							backgroundColor: {
+                            backgroundColor: {
                     linearGradient: [0, 0, 0, 60],
                     stops: [
                         [0, '#FFFFFF'],
@@ -207,14 +207,11 @@
       'us-ny': [{
         'code': 'us-ny-063',
         value: 20
-      }, {
-        'code': 'us-ny-1192929391923',
-        value: 20
       }],
       'us-ma': [{
         'code': 'us-ma-001',
         value: 20
-      }, ]
+      }]
     };
 
     return {
@@ -226,4 +223,4 @@
       }
     }
   })
-})();
+})($);
